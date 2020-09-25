@@ -1,0 +1,21 @@
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+
+  th,
+  td {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: $table-border-width solid $table-border-color;
+  }
+
+  thead th {
+    vertical-align: bottom;
+    border-bottom: (2 * $table-border-width) solid $table-border-color;
+  }
+
+  tbody + tbody {
+    border-top: (2 * $table-border-width) solid $table-border-color;
+  }
+}

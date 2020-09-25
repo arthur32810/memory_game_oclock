@@ -1,0 +1,9 @@
+//On importe nos fichiers sass qui nous servent pour le graphisme du jeu
+@import './base/base';
+
+@import "./utils/variables";
+
+@import "./components/cards";
+@import "./components/chrono";
+@import "./components/progressbar";
+@import "./components/tables";

@@ -1,0 +1,31 @@
+.card{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url("../images/dos-card.png") 0 0 no-repeat;
+  background-color: darkgrey;
+
+  @media (max-width: 576px)
+  {
+    margin: 6px;
+  }
+
+  &-reverse{
+    background: url('../images/cards.png') no-repeat;
+
+  }
+
+  //on défini les figures de l'image cards.png dans l'ordre
+  $fruits: apple, banana, orange, green-lemon, beet, peach, lemon, strawberry, green-apple, apricot, grape, watermelon, fig, pear, cherry, raspberry, mango, yellow-cherry ;
+  $height:0; //défini la hauteur des images
+
+  //on boucle sur le tableeau des fruits pour gérer leur affichage
+  @each $fruits in $fruits
+  {
+    &-#{$fruits}{
+      background-position: 0 #{$height}px;
+      $height : $height - 100;
+    }
+  }
+}
+

@@ -1,0 +1,55 @@
+.text-center{
+  text-align: center;
+}
+
+#best-score{
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+
+  table{
+    text-align: center;
+  }
+}
+
+#restart{
+  display: none;
+}
+
+#game{
+  text-align: center;
+  max-width: 1400px;
+}
+
+img{
+  padding-right: 50px;
+}
+
+#message-div{
+  height: 24px;
+  margin: 10px;
+
+  @media(max-width: 576px)
+  {
+    height: 50px;
+  }
+}
+
+//style pour les bandeau message
+.headband{
+  display: none;
+  text-align: center;
+  padding: 5px;
+}
+
+// style message erreur mauvaise paire
+#error-card{
+  background-color: indianred;
+  color: white;
+
+}
+
+// style message erreur bonne paire
+#good-card{
+  background-color: lightgreen;
+}

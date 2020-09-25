@@ -1,0 +1,11 @@
+{
+  "name": "memory_oclock",
+  "version": "1.0.0",
+  "description": "jeu memory",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./public/sass/main.scss:./public/css/style.css"
+  },
+  "author": "arthur-robert",
+  "license": "ISC"
+}

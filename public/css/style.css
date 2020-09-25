@@ -1,0 +1,151 @@
+.text-center {
+  text-align: center;
+}
+
+#best-score {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+#best-score table {
+  text-align: center;
+}
+
+#restart {
+  display: none;
+}
+
+#game {
+  text-align: center;
+  max-width: 1400px;
+}
+
+img {
+  padding-right: 50px;
+}
+
+#message-div {
+  height: 24px;
+  margin: 10px;
+}
+@media (max-width: 576px) {
+  #message-div {
+    height: 50px;
+  }
+}
+
+.headband {
+  display: none;
+  text-align: center;
+  padding: 5px;
+}
+
+#error-card {
+  background-color: indianred;
+  color: white;
+}
+
+#good-card {
+  background-color: lightgreen;
+}
+
+.card {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url("../images/dos-card.png") 0 0 no-repeat;
+  background-color: darkgrey;
+}
+@media (max-width: 576px) {
+  .card {
+    margin: 6px;
+  }
+}
+.card-reverse {
+  background: url("../images/cards.png") no-repeat;
+}
+.card-apple {
+  background-position: 0 0px;
+}
+.card-banana {
+  background-position: 0 -100px;
+}
+.card-orange {
+  background-position: 0 -200px;
+}
+.card-green-lemon {
+  background-position: 0 -300px;
+}
+.card-beet {
+  background-position: 0 -400px;
+}
+.card-peach {
+  background-position: 0 -500px;
+}
+.card-lemon {
+  background-position: 0 -600px;
+}
+.card-strawberry {
+  background-position: 0 -700px;
+}
+.card-green-apple {
+  background-position: 0 -800px;
+}
+.card-apricot {
+  background-position: 0 -900px;
+}
+.card-grape {
+  background-position: 0 -1000px;
+}
+.card-watermelon {
+  background-position: 0 -1100px;
+}
+.card-fig {
+  background-position: 0 -1200px;
+}
+.card-pear {
+  background-position: 0 -1300px;
+}
+.card-cherry {
+  background-position: 0 -1400px;
+}
+.card-raspberry {
+  background-position: 0 -1500px;
+}
+.card-mango {
+  background-position: 0 -1600px;
+}
+.card-yellow-cherry {
+  background-position: 0 -1700px;
+}
+
+#chrono {
+  text-align: center;
+}
+
+#progressBar {
+  visibility: hidden;
+  text-align: center;
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+.table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+/*# sourceMappingURL=style.css.map */
